@@ -1,0 +1,1 @@
+if(42===43) {console.log("Condition is true");} else {console.log("Condition is false");}
