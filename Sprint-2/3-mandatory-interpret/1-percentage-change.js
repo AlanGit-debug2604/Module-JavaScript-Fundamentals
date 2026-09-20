@@ -2,7 +2,9 @@ let carPrice = "10,000";
 let priceAfterOneYear = "8,543";
 
 carPrice = Number(carPrice.replaceAll(",", ""));
-priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
+//priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
+
+priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",",""));
 
 const priceDifference = carPrice - priceAfterOneYear;
 const percentageChange = (priceDifference / carPrice) * 100;
@@ -21,7 +23,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // There should be a comma to separate arguments 
 
 // c) Identify all the lines that are variable reassignment statements
-//  Variable reassingment statatments on lines 4 and 5.
+//  Variable reassignment statements on lines 4 and 5.
 //  Variables carPrice and priceAfterOnYear are originally declared on lines 1 and 2, and reassigned on lines 4 and 5.
 
 // d) Identify all the lines that are variable declarations
