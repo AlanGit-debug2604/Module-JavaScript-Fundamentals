@@ -21,7 +21,7 @@ console.log(result);
 
 // c) Using documentation, explain what the expression movieLength % 60 represents
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
-// % is remainer operator. This operator returns the remainder after left operand is divided by 60.
+// % is remainder operator. This operator returns the remainder after left operand is divided by 60.
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 // The expression means first exclude odd seconds, then convert the movie length in number of complete minutes. 
