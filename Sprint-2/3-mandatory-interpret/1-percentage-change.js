@@ -16,9 +16,9 @@ console.log(`The percentage change is ${percentageChange}`);
 // These function calls are Number, replaceAll, and console.log
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
-// The error is from line 5:
-// priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
-// There should be a comma to separate arguments 
+// The error originally came from the replaceAll call for priceAfterOneYear: the two arguments
+// (",", "") were missing a comma between them, causing a SyntaxError.
+// The fix was adding the missing comma so replaceAll(",", "") has two properly separated arguments. 
 
 // c) Identify all the lines that are variable reassignment statements
 //  Variable reassignment statements on lines 4 and 5.
@@ -30,4 +30,5 @@ console.log(`The percentage change is ${percentageChange}`);
 // On lines 7 and 8, variables priceDifference and percentageChange are declared by const.
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
-// To remove comma as a punctuation and space such that the  string is ready turn into a number by method Number.
+// replaceAll(",", "") removes all comma characters from the string, since commas aren't valid in a numeric value.
+// Number() then converts the resulting clean string into an actual number, so it can be used in arithmetic.
