@@ -5,8 +5,6 @@ const cityOfBirth = "Bolton";
 console.log(`I was born in ${cityOfBirth}`);
 
 
-//console.log(`I was born in ${cityOfBirth}`);
-//const cityOfBirth = "Bolton";
 //The error is that the variable should be declared as a constant before it is used in the console.log statement. 
 
 //This is a ReferenceError.
