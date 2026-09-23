@@ -1,4 +1,4 @@
-const penceString = "399"; // initialises a string variable with the value "399p"
+const penceString = "399p"; // initialises a string variable with the value "399p"
 
 const penceStringWithoutTrailingP = penceString.substring(
   0,
