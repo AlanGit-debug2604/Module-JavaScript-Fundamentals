@@ -1,4 +1,4 @@
-// An identifier cannot start with a numberical value
+// It was a SyntaxError. An identifier cannot start with a numberical value
 
 const TweleveHourClockTime = "8:53pm";
 const TwentyFourhourClockTime = "20:53";
