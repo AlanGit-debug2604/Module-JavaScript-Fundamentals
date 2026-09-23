@@ -15,8 +15,7 @@ const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 // The method Math.floor() then return greatest integer of the value of this product.
 // And finally plus the value of minimum variable declared.
 
-//`num` is a random integer between maximum and minimum inclusive. 
+//`num` is a random integer between maximum and minimum inclusive.
 // The smallest value of 'num' can be 1
 
-
-console.log(num)
+console.log(num);

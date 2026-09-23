@@ -2,7 +2,7 @@ let carPrice = "10,000";
 let priceAfterOneYear = "8,543";
 
 carPrice = Number(carPrice.replaceAll(",", ""));
-priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",",""));
+priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",", ""));
 
 const priceDifference = carPrice - priceAfterOneYear;
 const percentageChange = (priceDifference / carPrice) * 100;
@@ -18,7 +18,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
 // The error originally came from the replaceAll call for priceAfterOneYear: the two arguments
 // (",", "") were missing a comma between them, causing a SyntaxError.
-// The fix was adding the missing comma so replaceAll(",", "") has two properly separated arguments. 
+// The fix was adding the missing comma so replaceAll(",", "") has two properly separated arguments.
 
 // c) Identify all the lines that are variable reassignment statements
 //  Variable reassignment statements on lines 4 and 5.

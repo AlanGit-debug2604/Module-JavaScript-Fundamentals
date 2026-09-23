@@ -1,5 +1,3 @@
-
-
 // The last4Digits variable should store the last 4 digits of cardNumber
 // However, the code isn't working
 // Before running the code, make and explain a prediction about why the code won't work
