@@ -6,7 +6,7 @@
 // Then try updating the expression last4Digits is assigned to, in order to get the correct value
 // Expectation about the error : cardNumber is assigned a number value, a .slice function does not work on number
 // The constant last4Digits should be assigned to a String (cardNumber) to perform .slice function.
-// The code would result a TypeError.
+// The code would result a TypeError. It matches my prediction.
 const cardNumber = 4533787178994213;
 const last4Digits = String(cardNumber).slice(-4);
 
