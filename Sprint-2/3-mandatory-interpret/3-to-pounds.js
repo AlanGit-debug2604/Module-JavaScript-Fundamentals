@@ -1,4 +1,4 @@
-const penceString = "399p"; // initialises a string variable with the value "399p"
+const penceString = "399"; // initialises a string variable with the value "399p"
 
 const penceStringWithoutTrailingP = penceString.substring(
   0,
@@ -14,7 +14,9 @@ const pounds = paddedPenceNumberString.substring(
 
 const pence = paddedPenceNumberString
   .substring(paddedPenceNumberString.length - 2)
-  .padEnd(2, "0"); // declares variable for pence. Argument -2 of .substring method returns the last two characters.
+  .padEnd(2, "0"); // declares variable for pence. The argument is paddedPenceNumberString.length - 2,
+  // which for "399" (length 3) evaluates to 1. So this returns .substring(1), giving the last two
+  // characters "99" — not a literal -2 argument.
   // .padEnd method returns character length of two, if not, "0" will be added at the end of string, for examples "90". Here, expecting "99".
 
 console.log(`£${pounds}.${pence}`); // Prints the return value by Template Literal with '£X.yz" format in console pane.
