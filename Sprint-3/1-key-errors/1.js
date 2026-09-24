@@ -5,15 +5,6 @@
 
 // Try playing computer with the example to work out what is going on
 
-//function convertToPercentage(decimalNumber) {
-//const decimalNumber = 0.5;
-//const percentage = `${decimalNumber * 100}%`;
-
-//return percentage;
-//}
-
-//console.log(decimalNumber);
-
 // =============> decimalNumber first declared as parameter, it cannot be reassigned as const.
 // Also, console.log try to run decimalNumber as a variable while decimalNumber be assigned as a parameter.
 // Finally, correct the code to fix the problem
