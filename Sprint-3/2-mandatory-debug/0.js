@@ -1,6 +1,6 @@
 // Predict and explain first...
 
-// =============> Undefined. console.log in local function will result the product. But console.log in global scope will not call function multiply.
+// =============> Undefined at the end of sentence. console.log in local function will result the product. But console.log in global scope will not call function multiply.
 
 //function multiply(a, b) {
 //  console.log(a * b);
