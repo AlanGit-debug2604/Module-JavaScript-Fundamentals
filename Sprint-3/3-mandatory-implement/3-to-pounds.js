@@ -33,3 +33,6 @@ function toPound(wholePenceStringWithP) {
   return `£${pounds}.${pence}`;
 }
 console.log(toPound("399p"));
+console.log(toPound("1399p"));
+console.log(toPound("99p"));
+console.log(toPound("9p"));
