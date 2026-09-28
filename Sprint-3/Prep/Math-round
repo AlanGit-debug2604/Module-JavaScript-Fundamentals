@@ -1,5 +1,0 @@
-Math.round(0.00005);
-let round = Math.round(0.00004);
-
-round = round + 10;
-console.log(round);
