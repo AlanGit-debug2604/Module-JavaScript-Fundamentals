@@ -12,7 +12,7 @@
 // 3 paddedPenceNumberString ; assign and prescribe target length of pence in three characters length by .padStart()
 // 4 pounds ; assign pounds from first character of paddedPenceNumberString, cut the last two character by .substring
 // 5 pence ; assign pence starting from last two character of paddedPenceNumberString
-// Parameter to name penceStringWithP
+// Parameter to name wholePenceStringWithP
 
 function toPound(wholePenceStringWithP) {
   const penceStringWithoutTrailingP = wholePenceStringWithP.substring(
