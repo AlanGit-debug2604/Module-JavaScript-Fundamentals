@@ -1,0 +1,48 @@
+const Capacity = 6
+
+function sixToast(num) {
+  
+  let response;
+  let Capacity - sixToast = howmanymoreorless; 
+  
+  if (howmanymoreorless> 0) {
+    
+    response = "put `howmanymoreorless` toast";
+    
+   }
+  
+  else if (howmanymoreorless = 0){
+    
+    response = "toast count just right";
+  }
+  
+  else (howmanymoreorless < 0) {
+    response = "toast overflow take 'howmanymoreorless' away"
+  }
+
+}
+  
+  console.log(response)
+  
+ 
+
+
+//initial thoughts
+//set sixToast = 6  turn into  set capacity = 6
+//input sixTost =(user input) is parameter , and arguments 
+//6 - num (argument) = howmanymoreorless
+//if howmanymoreorless > 0 return "put `howmanymoreorless` toast"
+//if howmanymoreorless < 0 retrurn "toaster is full, take away abs(howmanymoreorless)"
+
+//keys:
+// capacity: number of toast process each time
+//sixToast: count of toast put into
+//howManymoreorless : the number need more or less
+
+//arithmetics:
+ 
+  // howManymoreorless = sixToast -toastPutinto
+  // howManymoreorless = sixToast - num
+  // howManymoreorless = 6 - num
+
+//sixToast -toastPutinto = absolute count of howManymoreorless 
