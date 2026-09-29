@@ -7,8 +7,10 @@ function formatAs12HourClock(time) {
   const minutes = time.slice(-2);
   if (hours >= 24) {
     return `0${hours - 24}:${minutes} am +1`;
-  } else if (hours > 12) {
+  } else if (hours > 22) {
     return `${hours - 12}:${minutes} pm`;
+  } else if (hours > 12) {
+    return `0${hours - 12}:${minutes} pm`;
   } else if (hours > 9) {
     return `${hours}:${minutes} am`;
   }
