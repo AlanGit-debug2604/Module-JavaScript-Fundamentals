@@ -4,8 +4,8 @@
 
 function formatAs12HourClock(time) {
   const hours = Number(time.slice(0, 2));
-  const minutes = time.slice(3);
-  if (hours > 24) {
+  const minutes = time.slice(-2);
+  if (hours >= 24) {
     return `${hours - 24}:${minutes} am +1`;
   } else if (hours > 12) {
     return `${hours - 12}:${minutes} pm`;
